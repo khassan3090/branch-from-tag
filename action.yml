@@ -12,5 +12,5 @@ inputs:
     description: 'Provide the tag number ex:- v0.0.7 or branch name i.e develop'
     required: true
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
