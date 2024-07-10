@@ -1,6 +1,6 @@
-name: 'Create Branch From Specific Tag'
-description: 'Create Branch From Specific Tag'
-author: 'Satyabrata Swain (satyabrata.swain@500apps.com)'
+name: 'Branch From Specific Tag'
+description: 'Branch From Specific Tag'
+author: 'Hassan'
 branding:
   icon: 'git-branch' 
   color: 'black'
