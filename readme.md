@@ -1,4 +1,4 @@
-[![N|Solid](https://github.com/satya-500/create-branch-from-tag/blob/master/iamnight.gif)](https://500apps.com)
+
 # Create Branch From TAG GitHub Action
 
 This action creates a new branch from a specific tag.
@@ -23,7 +23,7 @@ branch you can provide directly.
 create branch from tag
 ```
 - name: creating rc branch
-  uses: satya-500/create-branch@v1.0
+  uses: khassan3090/create-branch@1.0.0
   env:
    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   with:
@@ -34,7 +34,7 @@ create branch from tag
 create branch from specific ref (branch)
 ```
 - name: creating rc branch
-  uses: satya-500/create-branch@v1.0
+  uses: khassan3090/create-branch@1.0.0
   env:
    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   with:
